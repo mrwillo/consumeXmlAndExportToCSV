@@ -1,0 +1,81 @@
+<TPResponse>
+    <PullRoster>
+        <responseStatus>1000</responseStatus>
+        <responseMessage>Success.</responseMessage>
+        <trip>
+            <header>
+                <invoice_number>258281320</invoice_number>
+                <recipient_first>John</recipient_first>
+                <recipient_middle>Q</recipient_middle>
+                <recipient_last>Public</recipient_last>
+                <medicaid_number>AA00001A</medicaid_number>
+                <gender>F</gender>
+                <recipient_phone>(999) 896-5542</recipient_phone>
+                <birthdate>07/15/1960</birthdate>
+                <medical_provider>Brown, Bobbie</medical_provider>
+                <provider_id>01976530</provider_id>
+                <provider_npi_number>111111111</provider_npi_number>
+                <transport_provider_name>AAA Taxi</transport_provider_name>
+                <procedure_code>A0100</procedure_code>
+                <procedure_code_modifier></procedure_code_modifier>
+                <service_starts>04/15/2016</service_starts>
+                <service_ends>04/15/2016</service_ends>
+                <standing_order>No</standing_order>
+                <trips_approved>2</trips_approved>
+                <days_approved>1</days_approved>
+                <wheelchair></wheelchair>
+                <contact_name>self</contact_name>
+                <contact_phone></contact_phone>
+            </header>
+            <legs>
+                <leg>
+                    <pickup_date>04/15/2016</pickup_date>
+                    <pickup_time>Call</pickup_time>
+                    <pickup_address>10 Somewhere Plz</pickup_address>
+                    <pickup_detail></pickup_detail>
+                    <pickup_city>Syracuse</pickup_city>
+                    <pickup_state>NY</pickup_state>
+                    <pickup_zip>13202</pickup_zip>
+                    <dropoff_date>04/15/2016</dropoff_date>
+                    <dropoff_time>Call</dropoff_time>
+
+                    <dropoff_address>222 Main St</dropoff_address>
+                    <dropoff_detail>Apt 1</dropoff_detail>
+                    <dropoff_city>Syracuse</dropoff_city>
+                    <dropoff_state>NY</dropoff_state>
+                    <dropoff_zip>13208</dropoff_zip>
+                    <instructions>1 Additional Rider</instructions>
+                    <mileage>3.00</mileage>
+                    <changed>1</changed>
+                </leg>
+                <leg>
+                    <pickup_date>04/15/2016</pickup_date>
+                    <pickup_time>0700</pickup_time>
+                    <pickup_address>222 Main St</pickup_address>
+                    <pickup_detail>Apt 1</pickup_detail>
+                    <pickup_city>Syracuse</pickup_city>
+                    <pickup_state>NY</pickup_state>
+                    <pickup_zip>13208</pickup_zip>
+                    <dropoff_date>04/15/2016</dropoff_date>
+                    <dropoff_time>0800</dropoff_time>
+                    <dropoff_address>10 Somewhere Plz</dropoff_address>
+                    <dropoff_detail></dropoff_detail>
+                    <dropoff_city>Syracuse</dropoff_city>
+                    <dropoff_state>NY</dropoff_state>
+                    <dropoff_zip>13202</dropoff_zip>
+                    <instructions></instructions>
+                    <mileage>3.00</mileage>
+                    <changed>1</changed>
+                </leg>
+            </legs>
+            <secondary_services>
+                <service>
+                    <service_name>Mileage-Taxi Onondaga</service_name>
+                    <service_procedure_code>S0215</service_procedure_code>
+                    <service_procedure_code_modifier></service_procedure_code_modifier>
+                    <service_rate>3.20</service_rate>
+                </service>
+            </secondary_services>
+        </trip>
+    </PullRoster>
+</TPResponse>

@@ -1,0 +1,7 @@
+<TPResponse>
+    <PullRoster>
+        <responseStatus>1000</responseStatus>
+        <responseMessage>Success.</responseMessage>
+        
+    </PullRoster>
+</TPResponse>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TPResponse>
+    <pull_Roster>
+        <trip>
+            <legs>
+                <leg>
+                    <leg>
+                        <pickupAdress>cat lai-HCM city test data</pickupAdress>
+                    </leg>
+                </leg>
+            </legs>
+        </trip>
+        <responseStatus>10001</responseStatus>
+        <responseMessage>success</responseMessage>
+    </pull_Roster>
+</TPResponse>
